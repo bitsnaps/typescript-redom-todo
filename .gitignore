@@ -79,3 +79,13 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# dist
+dist/
+
+# Mac
+.DS_Store
+
+# PNPM
+pnpm-lock.yaml
+
