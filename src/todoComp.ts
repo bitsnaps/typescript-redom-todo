@@ -3,6 +3,7 @@ import Todo from "./todo";
 
 class TodoComp {
   content: Todo;
+  el: HTMLElement;
   constructor(content: Todo) {
     this.content = content;
     this.el = el("p.todo", content.content);

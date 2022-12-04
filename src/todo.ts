@@ -1,6 +1,6 @@
 class Todo {
-  content: string;
-  constructor(content: string) {
+  content: HTMLElement;
+  constructor(content: HTMLElement) {
     this.content = content;
   }
 }
